@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="style.css"> <!-- Make sure style.css is correctly placed -->
+
+   <!-- External Styles -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.min.css">
+   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8133/8133849.png" type="image/x-icon">
+
+   <script src="script.js"></script>
+</head>
+
+<body>
+   <header>
+      <div class="logo">
+         <img src="https://cdn-icons-png.flaticon.com/512/8133/8133849.png" alt="Image"
+            class="animate__animated animate__rubberBand animate__infinite">
+         <span class="name">PH<span id="sp"><b>A</b></span><span>NI</span></span>
+      </div>
+      <div class="menu animate__animated animate__backInRight">
+         <nav class="navigation">
+            <a href="#banner">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+         </nav>
+         <button class="hiremeBtn" id="hiremeBtn">Hire Me</button>
+      </div>
+   </header>
+
+   <main>
+      <section id="banner">
+         <div class="bannerLeft">
+            <h2>Hi, <br>I'm Phani, <br><span class="full">UI FULL STACK DEVELOPER</span></h2>
+            <p>Looking for a position where my knowledge can be shared and enhanced.
+               A career opportunity where I can utilize my communication and technical skills.
+               I strive to be the best in whatever I do.</p>
+            <div class="buttons">
+               <button>Hire Me</button>
+               <button><a href="./phani.pdf" download>Download Resume</a></button>
+            </div>
+         </div>
+         <div class="bannerRight bombLeftOut magictime">
+            <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+               type="module"></script>
+            <dotlottie-player src="https://lottie.host/e1a3af1f-c45d-4efd-82a4-36e280a9350c/Xz1jpDtMQc.lottie"
+               background="transparent" speed="1" class="lottie" loop autoplay></dotlottie-player>
+         </div>
+      </section>
+
+      <h2 class="heading"><u>ABOUT</u></h2>
+      <div class="con">
+         <section id="about">
+            <img src="./phani.jpg" alt="image" class="aboutPic">
+            <p>I am a recent graduate in Bachelor of Arts in Degree from Adikavi Nannaya University, Rajamahendravaram,
+               with a strong interest in Software Development. I have developed skills in HTML, CSS, Bootstrap,
+               JavaScript, React, and JQuery, and completed projects such as <b>Fakestore</b> and <b>Text-to-Speech</b>.
+               I am eager to apply my knowledge, learn new skills, and contribute to a dynamic team. My goal is to grow
+               professionally and add value to an organization while continually improving my skills.</p>
+      </div>
+      </section>
+
+      <h2 class="heading"><u>SKILLS</u></h2>
+      <section id="skills">
+         <img src="html5.png" alt="html">
+         <img src="css.png" alt="css">
+         <img src="js.png" alt="js">
+         <img src="boo.png" alt="bootstrap">
+         <img src="react.png" alt="react">
+         <img src="nodejs.png" alt="nodejs">
+         <img src="Mysql_logo.png" alt="mysql">
+         <img src="mongodb.png" alt="mongodb">
+      </section>
+
+      <h2 class="heading"><u>EDUCATION</u></h2>
+      <section id="education" class="edu">
+         <div class="control">
+            <div class="hello" id="hp">
+               <h3>Bachelor of Arts in Degree</h3>
+               <span>B.Com [Computer Application] | Sir C R Reddy College, Eluru 2021 - 2024</span><br>
+               <span>8.0 SGPA</span>
+            </div><br><br>
+
+            <div class="hello" id="p">
+               <h3>Senior Secondary</h3>
+               <span>Senior Secondary | Sri Chaitanya Junior College, Eluru 2019 - 2021</span><br>
+               <span>75%</span>
+            </div><br><br>
+
+            <div class="hello" id="pg">
+               <h3>Secondary [Class X]</h3>
+               <span>New Generation [E.M] High School, Eluru 2018 - 2019</span><br>
+               <span>8.4 GPA</span>
+            </div>
+         </div>
+      </section>
+
+      <h2 class="heading"><u>PROJECTS</u></h2>
+      <section id="projects">
+         <div class="project">
+            <img src="./fake_products.jpg" alt="project">
+            <h2><b>FAKESTORE</b></h2>
+            <ul>
+               <li><b>Login Modal:</b> A login modal is available, allowing users to enter a username and password,
+                  though the authentication feature is not yet functional.</li>
+               <li><b>Product Display & Categories:</b> The website shows products from Fakestore API, allowing users to
+                  filter them by category through a dropdown menu.</li>
+               <li><b>Cart Management:</b> Users can add products to their cart, and the cart icon updates with the
+                  number of items. A modal shows the cart with product details and total price.</li>
+               <li><b>Product Rendering:</b> Products are displayed dynamically using JavaScript, generating HTML
+                  elements for each product</li>
+               <li><b>Filtering by Rating:</b> Users can filter products to show only those with a rating higher than 4
+                  by checking a box</li>
+            </ul>
+            <button><a href="https://phani639.github.io/store/store" target="_blank">View</a></button>
+         </div>
+         <div class="project">
+            <img src="./text.png" alt="project">
+            <h2><b>Text-to-Speech Converter</b></h2>
+            <ul>
+               <li><b>Dynamic Voice Loading:</b> The application retrieves available voices dynamically, allowing for
+                  user selection</li>
+               <li><b>Responsive Design:</b> The layout is designed to be centered and visually appealing on different
+                  screen sizes.</li>
+               <li><b>Interactive Elements:</b> Users can input text, choose a voice, and trigger speech playback,
+                  making it a user-friendly tool.</li>
+            </ul>
+            <button><a href="https://phani639.github.io/voice/voice" target="_blank">View</a></button>
+         </div>
+      </section>
+
+      <h2 class="heading"><u>CONTACT</u></h2>
+      <section id="contact">
+         <dl>
+            <dt><b>Mobile No :</b></dt>
+            <dd>+91 9347736747</dd>
+            <dt><b>E-mail :</b></dt>
+            <dd>phanigani4@gmail.com</dd>
+            <dt><b>Address :</b></dt>
+            <dd>K. DurgaPuram, NTR colony 2-150, 534004, Eluru District</dd>
+
+            <button id="btntag">Get in Touch</button>
+         </dl>
+      </section>
+   </main>
+
+   <footer>
+      This site belongs to P.H.A.N.I &copy;2024
+   </footer>
+</body>
+
+</html>
